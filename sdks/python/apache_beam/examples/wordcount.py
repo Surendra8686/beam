@@ -70,7 +70,7 @@ def run(argv=None, save_main_session=True) -> PipelineResult:
   parser.add_argument(
       '--input',
       dest='input',
-      default='gs://dataflow-samples/shakespeare/kinglear.txt',
+      default='gs://my-dataflow-bkt/input/testfile-dataflow-word count.txt',
       help='Input file to process.')
   parser.add_argument(
       '--output',
